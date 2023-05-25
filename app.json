@@ -1,24 +1,24 @@
 {
   "name": "TelegramChat",
   "description": "Bot anonymous chat.",
-  "repository": "https://github.com/Dax083/anon-bot",
+  "repository": "http://instagram.com/banh_dims0",
   "logo": "https://telegra.ph/file/de3e9d2a021c2ac516b12.jpg",
   "env": {
     "TOKEN": {
-      "description": "Dapatkan di @botfather",
+      "description": "Dapatkan di @sansdimz",
       "value": ""
     },
     "OWNER": {
       "description": "Isi dengan username kalian tanpa tanda @",
-      "value": "kang_culiknew"
+      "value": "sansdimz"
     },
     "GROUP": {
       "description": "Isi dengan username group kalian tanpa tanda @ kalau gak punya gak usah isi",
-      "value": "vvslh_pro"
+      "value": "dimzbotzzxyz"
     },
     "CHANNEL": {
       "description": "Isi dengan username channel kalian tanpa tanda @ kalau gak punya gak usah isi",
-      "value": "vvslh_pro"
+      "value": "dimzbotzzxyz"
     }
   }
 }
