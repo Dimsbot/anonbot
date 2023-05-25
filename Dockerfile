@@ -1,19 +1,13 @@
-FROM node:lts-buster
+FROM python3
 
-RUN apt-get update && \
-  apt-get install -y \
-  ffmpeg \
-  imagemagick \
-  webp && \
-  apt-get upgrade -y && \
-  rm -rf /var/lib/apt/lists/*
+WORKDIR /app
 
-COPY package.json .
+COPY requirements.txt /app/
 
-RUN python3 ChatBot.py
+RUN pip install -r requirements.txt
 
-COPY . .
+COPY . /app
 
-EXPOSE 5000
+      #set a default command
 
-CMD ["python3", "ChatBot.py"]
+CMD python3 ChatBot.py
