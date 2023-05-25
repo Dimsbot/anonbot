@@ -2,11 +2,9 @@ FROM python3
 
 WORKDIR /app
 
-COPY requirements.txt /app/
+COPY pip install -r requirements.txt /app/
 
-RUN pip install -r requirements.txt
-
-COPY . /app
+RUN python3
 
       #set a default command
 
