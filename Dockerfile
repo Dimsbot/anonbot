@@ -14,4 +14,4 @@ WORKDIR /app/
 
 RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
 
-CMD bash ChatBot.py
+CMD bash start
